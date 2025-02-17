@@ -80,7 +80,8 @@ justify-content: center;
 gap: 24px;
 }
 #heroheader{
-    margin: 115px 144px 355px 52px;
+/*     margin: 115px 144px 355px 52px; */
+    margin-top: 115px;
 }
 
 #line{
