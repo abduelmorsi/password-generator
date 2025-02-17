@@ -14,7 +14,8 @@ let pass2 = document.getElementById("password2")
     })
 
 function generatePasswords(){
-    
+    document.getElementById("password1").textContent = "";
+    document.getElementById("password2").textContent = "";
     for (let i = 0; i<16; i++){
         document.getElementById("password1").textContent += characters[Math.floor(Math.random()*characters.length)]
         document.getElementById("password2").textContent += characters[Math.floor(Math.random()*characters.length)] 
